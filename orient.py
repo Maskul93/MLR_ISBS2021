@@ -1,3 +1,5 @@
+import numpy as np
+
 # Quaternion Conjugate
 def quaternConj(q):
     w, x, y, z = q
@@ -56,6 +58,7 @@ def eul2quatern(roll_x, pitch_y, yaw_z):
 
 # --- Simple Complementary Filter 
 def compl_filt(acc_data, gyr_data, fs, beta):
+
     N = acc_data.shape[0]
     roll_x, pitch_y, yaw_z, angle_x, angle_y, angle_z = np.zeros(N), np.zeros(N), np.zeros(N), np.zeros(N), np.zeros(N), np.zeros(N)
     dk = 1/fs
