@@ -19,5 +19,5 @@ Under the following terms:
 If you have any question, please contact me at <a href = "mailto:mascia.guido@gmail.com">mascia.guido@gmail.com</a>
 
 <p align="center"><a href = "https://creativecommons.org/licenses/by-nc/4.0">
-  <img width="100" height="35" src="./misc/by-nc.png" alt = "CC BY NC"> </a>
+  <img width="100" height="35" src="https://github.com/Maskul93/MLR_ISB2021/blob/main/misc/by-nc.png" alt = "CC BY NC"> </a>
 </p>
